@@ -5,12 +5,12 @@ USE `Restaurant_Guest_mini_app`;
 -- 
 drop table if exists `counters`;
 create table `counters` (
-	`id` int(11) NOT null,
+	`id` int(11) NOT null auto_increment,
     `max_capacity` int(2) not null,
     `occupency` boolean not null,
     `assign_guest` int(11) default null,
     primary key (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
 
 --
 -- Table structure for table 'Waiting_guest'

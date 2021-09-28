@@ -25,8 +25,8 @@ public class guest_entry {
 
     }
 
-    public guest_entry(int id, String name, int head_counts, int assign_table){
-        this.id = id;
+    public guest_entry(String name, int head_counts, int assign_table){
+        
         this.Name = name;
         this.head_counts = head_counts;
         this.assign_table = assign_table;

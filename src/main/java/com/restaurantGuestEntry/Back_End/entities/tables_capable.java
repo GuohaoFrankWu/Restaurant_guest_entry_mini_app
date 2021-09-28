@@ -25,8 +25,8 @@ public class tables_capable {
 
     }
 
-    public tables_capable(int id, int max, boolean occupy, int assign_guest){
-        this.id = id;
+    public tables_capable(int max, boolean occupy, int assign_guest){
+
         this.max_capacity = max;
         this.occupancy = occupy;
         this.assign_guest = assign_guest;
