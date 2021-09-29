@@ -15,7 +15,7 @@ public class tables_capable {
     @Column(name = "max_capacity")
     private int max_capacity;
 
-    @Column(name = "occupancy")
+    @Column(name = "occupency")
     private boolean occupancy;
 
     @Column(name = "assign_guest")
