@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
 
-@CrossOrigin(origins = { "http://localhost:3000"})
+@CrossOrigin(origins = { "http://localhost:3006"})
 @RestController
 public class Guest_Controller {
     private final forGuest guestService;
@@ -18,7 +18,7 @@ public class Guest_Controller {
         this.guestService = guestService;
     }
 
-    //
+    //http://localhost:8080/retrieveAllGuests
     @ResponseBody
     @GetMapping("/retrieveAllGuests")
     public List<guest_entry> findAll(){

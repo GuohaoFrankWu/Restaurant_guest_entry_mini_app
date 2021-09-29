@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
 
-@CrossOrigin(origins = { "http://localhost:3000"})
+@CrossOrigin(origins = { "http://localhost:3005"})
 @RestController
 public class table_Controller {
     private final forTable tableService;
