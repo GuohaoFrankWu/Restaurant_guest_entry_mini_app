@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
 @ComponentScan({"com.restaurantGuestEntry.Back_End.Service.*"})
-//@EntityScan("com.delivery.domain")
+@EntityScan("com.restaurantGuestEntry.Back_End.entities.*")
 //@EnableJpaRepositories("com.delivery.repository")
 public class BackEndApplication {
 	public BackEndApplication(){
